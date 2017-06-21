@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="5cK-X6-AjS">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Sobre la app..-->
+        <scene sceneID="2BD-If-yjv">
+            <objects>
+                <viewController storyboardIdentifier="About" id="zTA-oo-Nvn" customClass="AboutController" customModule="GHM" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lIW-X9-9M6"/>
+                        <viewControllerLayoutGuide type="bottom" id="AH8-Dg-loT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RTR-am-5SB" customClass="CustomBackgroundColor" customModule="GHM" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¿Qué es GHM?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="hsE-5P-bc2">
+                                <rect key="frame" x="16" y="139" width="343" height="26"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¿Por qué elegir GHM?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="gxo-Kh-63R">
+                                <rect key="frame" x="16" y="333" width="343" height="26"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Desarrollado por: Luis Morales - 2017" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Nud-4I-G0K">
+                                <rect key="frame" x="16" y="565" width="343" height="17"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="NKF-yu-HDa">
+                                <rect key="frame" x="16" y="173" width="343" height="152"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="152" id="CBp-eJ-8In"/>
+                                    <constraint firstAttribute="width" constant="343" id="J6P-JX-wR3"/>
+                                </constraints>
+                                <string key="text">GHM es una aplicación desarrollada con el objetivo de ayudar a las familias y hogares con un control de gastos e ingresos de manera intuitiva, sencilla y cercana posible</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="btu-b7-5hl">
+                                <rect key="frame" x="16" y="368" width="343" height="139"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="139" id="W08-SU-KCr"/>
+                                </constraints>
+                                <string key="text">GHM te permite a través de un registro mínimo y de manera gratuita, estar al tanto de las finanzas de tu hogar donde y cuando sea, solo necesitas tu dispositivo Apple y listo!</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.53510199650000001" green="0.67336697050000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="NKF-yu-HDa" firstAttribute="trailing" secondItem="btu-b7-5hl" secondAttribute="trailing" id="0tF-Dh-JyU"/>
+                            <constraint firstItem="NKF-yu-HDa" firstAttribute="trailing" secondItem="Nud-4I-G0K" secondAttribute="trailing" id="1vK-aI-t3a"/>
+                            <constraint firstItem="NKF-yu-HDa" firstAttribute="leading" secondItem="hsE-5P-bc2" secondAttribute="leading" id="30Q-Ea-PbZ"/>
+                            <constraint firstItem="Nud-4I-G0K" firstAttribute="top" secondItem="btu-b7-5hl" secondAttribute="bottom" constant="58" id="MnC-Wi-nxn"/>
+                            <constraint firstItem="NKF-yu-HDa" firstAttribute="leading" secondItem="gxo-Kh-63R" secondAttribute="leading" id="OSy-93-dZe"/>
+                            <constraint firstItem="NKF-yu-HDa" firstAttribute="top" secondItem="hsE-5P-bc2" secondAttribute="bottom" constant="8" id="PhY-ns-wd7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="NKF-yu-HDa" secondAttribute="trailing" id="V0c-4z-mqT"/>
+                            <constraint firstItem="NKF-yu-HDa" firstAttribute="trailing" secondItem="gxo-Kh-63R" secondAttribute="trailing" id="hPA-MX-j4q"/>
+                            <constraint firstItem="NKF-yu-HDa" firstAttribute="leading" secondItem="Nud-4I-G0K" secondAttribute="leading" id="jhN-JF-Ra0"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="NKF-yu-HDa" secondAttribute="leading" id="kCC-bY-72M"/>
+                            <constraint firstItem="NKF-yu-HDa" firstAttribute="top" secondItem="RTR-am-5SB" secondAttribute="top" constant="173" id="rMf-af-24E"/>
+                            <constraint firstItem="gxo-Kh-63R" firstAttribute="top" secondItem="NKF-yu-HDa" secondAttribute="bottom" constant="8" id="vBW-Jp-pcH"/>
+                            <constraint firstItem="btu-b7-5hl" firstAttribute="top" secondItem="gxo-Kh-63R" secondAttribute="bottom" constant="9" id="w6V-cj-VYO"/>
+                            <constraint firstItem="NKF-yu-HDa" firstAttribute="leading" secondItem="btu-b7-5hl" secondAttribute="leading" id="wyM-LA-SPa"/>
+                            <constraint firstItem="NKF-yu-HDa" firstAttribute="trailing" secondItem="hsE-5P-bc2" secondAttribute="trailing" id="zF2-hx-I5N"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Sobre la app.." id="TdW-Tv-7vc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xUR-f5-Zgt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="943.20000000000005" y="131.78410794602701"/>
+        </scene>
+        <!--About-->
+        <scene sceneID="2AF-ow-Uah">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5cK-X6-AjS" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="About" image="user-1" id="DJ5-M1-ohc"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="HKj-uz-6RX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="zTA-oo-Nvn" kind="relationship" relationship="rootViewController" id="IEA-BJ-FOJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C2a-24-VXv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4" y="131.78410794602701"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="user-1" width="24" height="24"/>
+    </resources>
+</document>

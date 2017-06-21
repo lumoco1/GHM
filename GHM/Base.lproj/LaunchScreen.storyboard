@@ -1,7 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,12 +21,58 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tu aplicación de gestión de finanzas" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="juh-jG-JUF">
+                                <rect key="frame" x="16" y="417" width="343" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="w8a-hz-Hhz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Desarrollado por: Luis Morales - 2017" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hZ6-5P-OgN">
+                                <rect key="frame" x="16" y="576" width="343" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="mqI-pp-IOV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homee" translatesAutoresizingMaskIntoConstraints="NO" id="jeJ-ln-fK7">
+                                <rect key="frame" x="37" y="63" width="301" height="256"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="General House Management" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Jad-fy-8M4">
+                                <rect key="frame" x="16" y="363" width="343" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.53510199650000001" green="0.67336697050000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="juh-jG-JUF" firstAttribute="trailing" secondItem="Jad-fy-8M4" secondAttribute="trailing" id="G9t-8U-ise"/>
+                            <constraint firstItem="Jad-fy-8M4" firstAttribute="leading" secondItem="hZ6-5P-OgN" secondAttribute="leading" id="LfR-ea-N0V"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jeJ-ln-fK7" secondAttribute="trailing" constant="21" id="Mzk-qo-F9P"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="hZ6-5P-OgN" secondAttribute="bottom" constant="51" id="Ndq-Cc-cUZ"/>
+                            <constraint firstItem="jeJ-ln-fK7" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="43" id="a0O-cQ-W7k"/>
+                            <constraint firstItem="Jad-fy-8M4" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="cbZ-td-lzZ"/>
+                            <constraint firstItem="Jad-fy-8M4" firstAttribute="top" secondItem="jeJ-ln-fK7" secondAttribute="bottom" constant="44" id="d44-w2-k9W"/>
+                            <constraint firstItem="jeJ-ln-fK7" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="21" id="fwO-Kb-8ti"/>
+                            <constraint firstItem="Jad-fy-8M4" firstAttribute="centerX" secondItem="jeJ-ln-fK7" secondAttribute="centerX" id="jT6-sF-Fla"/>
+                            <constraint firstItem="Jad-fy-8M4" firstAttribute="trailing" secondItem="hZ6-5P-OgN" secondAttribute="trailing" id="ocA-FN-mrt"/>
+                            <constraint firstItem="juh-jG-JUF" firstAttribute="leading" secondItem="Jad-fy-8M4" secondAttribute="leading" id="tUO-XZ-SPN"/>
+                            <constraint firstItem="juh-jG-JUF" firstAttribute="top" secondItem="Jad-fy-8M4" secondAttribute="bottom" constant="24" id="vrx-ef-cmn"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="homee" width="256" height="256"/>
+    </resources>
 </document>

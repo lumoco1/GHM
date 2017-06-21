@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="tlF-yC-4rD">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Info Finanzas-->
+        <scene sceneID="Yk8-79-9WB">
+            <objects>
+                <viewController id="wVa-vz-5VN" customClass="InfoController" customModule="GHM" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cKp-ba-BiZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="iYm-ie-6FT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9Ve-WP-hg6" customClass="CustomBackgroundColor" customModule="GHM" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oj4-oq-rBr" customClass="BarChartView" customModule="Charts">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.53510199650000001" green="0.67336697050000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Oj4-oq-rBr" firstAttribute="width" secondItem="9Ve-WP-hg6" secondAttribute="width" id="Hx7-UD-gtL"/>
+                            <constraint firstItem="Oj4-oq-rBr" firstAttribute="height" secondItem="9Ve-WP-hg6" secondAttribute="height" id="SJF-Av-bW4"/>
+                            <constraint firstItem="Oj4-oq-rBr" firstAttribute="leading" secondItem="9Ve-WP-hg6" secondAttribute="leading" id="v7E-z9-GM6"/>
+                            <constraint firstItem="Oj4-oq-rBr" firstAttribute="top" secondItem="cKp-ba-BiZ" secondAttribute="bottom" id="ydD-az-tXc"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                    <navigationItem key="navigationItem" title="Info Finanzas" id="wsP-Pm-Vsu">
+                        <barButtonItem key="leftBarButtonItem" title="Atrás" id="wPt-pa-0EA">
+                            <connections>
+                                <segue destination="prW-iC-vdU" kind="unwind" unwindAction="unwindToMainMenu:" id="j62-sN-bPu"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Conclusiones" id="sBg-6y-lhT">
+                            <connections>
+                                <action selector="goToConclusions:" destination="wVa-vz-5VN" id="HzQ-ho-hFa"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="barChartView" destination="Oj4-oq-rBr" id="vWK-5Z-nPI"/>
+                        <outlet property="conclusionsButton" destination="sBg-6y-lhT" id="WsE-2n-Bcw"/>
+                        <segue destination="Z7D-kn-WZo" kind="show" identifier="ConclusionsNavigation" id="EQc-w4-cUb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mss-UZ-87u" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="prW-iC-vdU" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1135.2" y="125.4872563718141"/>
+        </scene>
+        <!--Conclusions Controller-->
+        <scene sceneID="Kll-ZT-RkS">
+            <objects>
+                <viewController id="Z7D-kn-WZo" customClass="ConclusionsController" customModule="GHM" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wJN-YC-ChT"/>
+                        <viewControllerLayoutGuide type="bottom" id="JOK-gf-7Lr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="L7J-Bj-FL5" customClass="CustomBackgroundColor" customModule="GHM" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vHC-cq-NTc">
+                                <rect key="frame" x="147" y="87" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="Hxd-Jx-Jue"/>
+                                </constraints>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="VLp-fB-2wd">
+                                <rect key="frame" x="0.0" y="269" width="375" height="398"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="LQH-3G-u5j">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LQH-3G-u5j" id="A4J-y7-J9Y">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Su balance económico ha sido de:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yr5-Kf-26b">
+                                <rect key="frame" x="16" y="198" width="271" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="9eI-yI-Dgy">
+                                <rect key="frame" x="285" y="198" width="74" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="74" id="grm-5r-19F"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="VLp-fB-2wd" firstAttribute="leading" secondItem="L7J-Bj-FL5" secondAttribute="leading" id="4dg-Q3-eEt"/>
+                            <constraint firstItem="VLp-fB-2wd" firstAttribute="top" secondItem="yr5-Kf-26b" secondAttribute="bottom" constant="50" id="5BM-Q6-Xd6"/>
+                            <constraint firstItem="9eI-yI-Dgy" firstAttribute="top" secondItem="wJN-YC-ChT" secondAttribute="bottom" constant="134" id="5U3-yL-B4c"/>
+                            <constraint firstItem="vHC-cq-NTc" firstAttribute="centerX" secondItem="VLp-fB-2wd" secondAttribute="centerX" id="TKd-3s-ocq"/>
+                            <constraint firstItem="vHC-cq-NTc" firstAttribute="top" secondItem="wJN-YC-ChT" secondAttribute="bottom" constant="23" id="Vee-Ij-zKy"/>
+                            <constraint firstAttribute="bottom" secondItem="VLp-fB-2wd" secondAttribute="bottom" id="XQg-cU-DxE"/>
+                            <constraint firstItem="yr5-Kf-26b" firstAttribute="baseline" secondItem="9eI-yI-Dgy" secondAttribute="firstBaseline" id="Y1X-N1-KQP"/>
+                            <constraint firstAttribute="trailing" secondItem="VLp-fB-2wd" secondAttribute="trailing" id="oJb-Fh-tiI"/>
+                            <constraint firstItem="9eI-yI-Dgy" firstAttribute="trailing" secondItem="L7J-Bj-FL5" secondAttribute="trailingMargin" id="rJ8-4n-rno"/>
+                            <constraint firstItem="yr5-Kf-26b" firstAttribute="top" secondItem="vHC-cq-NTc" secondAttribute="bottom" constant="31" id="tJu-2b-ftD"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yr5-Kf-26b" secondAttribute="trailing" constant="72" id="u3n-2T-L4w"/>
+                            <constraint firstItem="yr5-Kf-26b" firstAttribute="leading" secondItem="L7J-Bj-FL5" secondAttribute="leadingMargin" id="vVq-lv-h5Q"/>
+                            <constraint firstItem="yr5-Kf-26b" firstAttribute="baseline" secondItem="9eI-yI-Dgy" secondAttribute="baseline" id="wlB-ih-KAP"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="balanceLabel" destination="9eI-yI-Dgy" id="oXY-8C-Gal"/>
+                        <outlet property="conclusionsTableView" destination="VLp-fB-2wd" id="LoD-qw-u8i"/>
+                        <outlet property="resultsImage" destination="vHC-cq-NTc" id="k9y-2a-piA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zVj-gY-ZjY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1952.8" y="124.58770614692655"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="BeR-NW-q5n">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tlF-yC-4rD" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="TrI-Th-wAV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.95005155456852797" green="0.90872875780621121" blue="0.5094575928725007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="wVa-vz-5VN" kind="relationship" relationship="rootViewController" id="jMs-iG-jvG"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g3Z-nR-lNY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="196" y="125.4872563718141"/>
+        </scene>
+    </scenes>
+</document>

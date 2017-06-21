@@ -7,13 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E2286AB4F12E13EA1AE1D43 /* Pods_GHMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FBD5D8455CA43E73DCC4093 /* Pods_GHMTests.framework */; };
+		405B6D0176C7C521A9A1C699 /* Pods_GHM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C08F532A79980869D442D69 /* Pods_GHM.framework */; };
+		E68FA07E84F1188A2BAA3510 /* Pods_GHMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95F5C88B02B872338CBE634 /* Pods_GHMUITests.framework */; };
+		FB16D0141EB60840004D4F8D /* About.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB16D0131EB60840004D4F8D /* About.storyboard */; };
+		FB16F7781EB7906B008C2BC5 /* Income.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB16F7771EB7906B008C2BC5 /* Income.storyboard */; };
+		FB16F77A1EB79CD9008C2BC5 /* IncomesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB16F7791EB79CD9008C2BC5 /* IncomesController.swift */; };
+		FB19D54A1EB6426A001AEFDE /* HelpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB19D5491EB6426A001AEFDE /* HelpController.swift */; };
+		FB19FD711EBF79FC00EAF7A4 /* InsurancesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB19FD701EBF79FC00EAF7A4 /* InsurancesController.swift */; };
+		FB1A900E1ED217300033793D /* AboutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1A900D1ED217300033793D /* AboutController.swift */; };
+		FB1BA3531EA517A9004CFB44 /* BorderedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1BA3521EA517A9004CFB44 /* BorderedTextField.swift */; };
+		FB1BA3551EA51A95004CFB44 /* BorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1BA3541EA51A95004CFB44 /* BorderedButton.swift */; };
 		FB1BAD001E942FE600B8A683 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1BACFF1E942FE500B8A683 /* AppDelegate.swift */; };
-		FB1BAD021E942FE600B8A683 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1BAD011E942FE600B8A683 /* ViewController.swift */; };
+		FB1BAD021E942FE600B8A683 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1BAD011E942FE600B8A683 /* LoginController.swift */; };
 		FB1BAD051E942FE600B8A683 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB1BAD031E942FE600B8A683 /* Main.storyboard */; };
 		FB1BAD071E942FE600B8A683 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB1BAD061E942FE600B8A683 /* Assets.xcassets */; };
 		FB1BAD0A1E942FE600B8A683 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB1BAD081E942FE600B8A683 /* LaunchScreen.storyboard */; };
 		FB1BAD151E942FE600B8A683 /* GHMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1BAD141E942FE600B8A683 /* GHMTests.swift */; };
 		FB1BAD201E942FE600B8A683 /* GHMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1BAD1F1E942FE600B8A683 /* GHMUITests.swift */; };
+		FB1EAEF41ECB887400A6C181 /* ConclusionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1EAEF31ECB887400A6C181 /* ConclusionsController.swift */; };
+		FB1F37051EBA2CBF008C40BD /* Info.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB1F37041EBA2CBF008C40BD /* Info.storyboard */; };
+		FB1F37071EBA3EE5008C40BD /* Insurance.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB1F37061EBA3EE5008C40BD /* Insurance.storyboard */; };
+		FB1F370B1EBA49C0008C40BD /* InfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1F370A1EBA49C0008C40BD /* InfoController.swift */; };
+		FB207B271EB4FE96004E8BF4 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB207B261EB4FE96004E8BF4 /* Login.storyboard */; };
+		FB207B291EB4FF1A004E8BF4 /* UserData.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB207B281EB4FF1A004E8BF4 /* UserData.storyboard */; };
+		FB207B2B1EB4FFD9004E8BF4 /* Help.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB207B2A1EB4FFD9004E8BF4 /* Help.storyboard */; };
+		FB22C4EE1EB0DE62001572BA /* UserDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB22C4ED1EB0DE62001572BA /* UserDataController.swift */; };
+		FB22C4F01EB0E0AE001572BA /* MainMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB22C4EF1EB0E0AE001572BA /* MainMenuController.swift */; };
+		FB2D9AC91EC0E68800BE8E0F /* CustomTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D9AC81EC0E68800BE8E0F /* CustomTableCell.swift */; };
+		FB2DBE781EC8C21D00C54FA5 /* InfoNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2DBE771EC8C21D00C54FA5 /* InfoNavigationController.swift */; };
+		FB2EF6E31ED062DD00D3ECB7 /* CustomBackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2EF6E21ED062DD00D3ECB7 /* CustomBackgroundColor.swift */; };
+		FB2EF6E71ED08D0D00D3ECB7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FB2EF6E61ED08D0D00D3ECB7 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +58,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1637A7575F7A56A792A009C8 /* Pods-GHMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHMTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GHMTests/Pods-GHMTests.release.xcconfig"; sourceTree = "<group>"; };
+		2C4823F520417FBA28095EB5 /* Pods-GHM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHM.release.xcconfig"; path = "Pods/Target Support Files/Pods-GHM/Pods-GHM.release.xcconfig"; sourceTree = "<group>"; };
+		3FBD5D8455CA43E73DCC4093 /* Pods_GHMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GHMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		887F702A983862C187B60702 /* Pods-GHMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHMUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GHMUITests/Pods-GHMUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		88AD1D50BB02A18F9A88087D /* Pods-GHMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHMTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GHMTests/Pods-GHMTests.debug.xcconfig"; sourceTree = "<group>"; };
+		89EEE8F86AD92A25A9F6CC47 /* Pods-GHM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GHM/Pods-GHM.debug.xcconfig"; sourceTree = "<group>"; };
+		8C08F532A79980869D442D69 /* Pods_GHM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GHM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA7A77213235F3A501B49C2D /* Pods-GHMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHMUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GHMUITests/Pods-GHMUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F95F5C88B02B872338CBE634 /* Pods_GHMUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GHMUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB16D0131EB60840004D4F8D /* About.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = About.storyboard; sourceTree = "<group>"; };
+		FB16F7771EB7906B008C2BC5 /* Income.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Income.storyboard; sourceTree = "<group>"; };
+		FB16F7791EB79CD9008C2BC5 /* IncomesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IncomesController.swift; sourceTree = "<group>"; };
+		FB19D5491EB6426A001AEFDE /* HelpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpController.swift; sourceTree = "<group>"; };
+		FB19FD701EBF79FC00EAF7A4 /* InsurancesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsurancesController.swift; sourceTree = "<group>"; };
+		FB1A900D1ED217300033793D /* AboutController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutController.swift; sourceTree = "<group>"; };
+		FB1BA3521EA517A9004CFB44 /* BorderedTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BorderedTextField.swift; path = GHM/BorderedTextField.swift; sourceTree = "<group>"; };
+		FB1BA3541EA51A95004CFB44 /* BorderedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BorderedButton.swift; path = GHM/BorderedButton.swift; sourceTree = "<group>"; };
 		FB1BACFC1E942FE500B8A683 /* GHM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHM.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB1BACFF1E942FE500B8A683 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FB1BAD011E942FE600B8A683 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB1BACFF1E942FE500B8A683 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = GHM/AppDelegate.swift; sourceTree = "<group>"; };
+		FB1BAD011E942FE600B8A683 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		FB1BAD041E942FE600B8A683 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FB1BAD061E942FE600B8A683 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB1BAD061E942FE600B8A683 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = GHM/Assets.xcassets; sourceTree = "<group>"; };
 		FB1BAD091E942FE600B8A683 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FB1BAD0B1E942FE600B8A683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB1BAD0B1E942FE600B8A683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = GHM/Info.plist; sourceTree = "<group>"; };
 		FB1BAD101E942FE600B8A683 /* GHMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GHMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB1BAD141E942FE600B8A683 /* GHMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHMTests.swift; sourceTree = "<group>"; };
 		FB1BAD161E942FE600B8A683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB1BAD1B1E942FE600B8A683 /* GHMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GHMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB1BAD1F1E942FE600B8A683 /* GHMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHMUITests.swift; sourceTree = "<group>"; };
 		FB1BAD211E942FE600B8A683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB1EAEF31ECB887400A6C181 /* ConclusionsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConclusionsController.swift; sourceTree = "<group>"; };
+		FB1F37041EBA2CBF008C40BD /* Info.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Info.storyboard; sourceTree = "<group>"; };
+		FB1F37061EBA3EE5008C40BD /* Insurance.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Insurance.storyboard; sourceTree = "<group>"; };
+		FB1F370A1EBA49C0008C40BD /* InfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoController.swift; sourceTree = "<group>"; };
+		FB207B261EB4FE96004E8BF4 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Login.storyboard; path = GHM/Login.storyboard; sourceTree = "<group>"; };
+		FB207B281EB4FF1A004E8BF4 /* UserData.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UserData.storyboard; sourceTree = "<group>"; };
+		FB207B2A1EB4FFD9004E8BF4 /* Help.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Help.storyboard; path = GHM/Help.storyboard; sourceTree = "<group>"; };
+		FB22C4ED1EB0DE62001572BA /* UserDataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDataController.swift; sourceTree = "<group>"; };
+		FB22C4EF1EB0E0AE001572BA /* MainMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuController.swift; sourceTree = "<group>"; };
+		FB2D9AC81EC0E68800BE8E0F /* CustomTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTableCell.swift; path = GHM/CustomTableCell.swift; sourceTree = "<group>"; };
+		FB2DBE771EC8C21D00C54FA5 /* InfoNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoNavigationController.swift; sourceTree = "<group>"; };
+		FB2EF6E21ED062DD00D3ECB7 /* CustomBackgroundColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomBackgroundColor.swift; path = GHM/CustomBackgroundColor.swift; sourceTree = "<group>"; };
+		FB2EF6E61ED08D0D00D3ECB7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "GHM/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				405B6D0176C7C521A9A1C699 /* Pods_GHM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E2286AB4F12E13EA1AE1D43 /* Pods_GHMTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +124,79 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E68FA07E84F1188A2BAA3510 /* Pods_GHMUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		410B4B7F2AC2DF39A90F28F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C08F532A79980869D442D69 /* Pods_GHM.framework */,
+				3FBD5D8455CA43E73DCC4093 /* Pods_GHMTests.framework */,
+				F95F5C88B02B872338CBE634 /* Pods_GHMUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E0419FCCB50154A7B4E4402 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89EEE8F86AD92A25A9F6CC47 /* Pods-GHM.debug.xcconfig */,
+				2C4823F520417FBA28095EB5 /* Pods-GHM.release.xcconfig */,
+				88AD1D50BB02A18F9A88087D /* Pods-GHMTests.debug.xcconfig */,
+				1637A7575F7A56A792A009C8 /* Pods-GHMTests.release.xcconfig */,
+				887F702A983862C187B60702 /* Pods-GHMUITests.debug.xcconfig */,
+				EA7A77213235F3A501B49C2D /* Pods-GHMUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FB19CB881ED4803000436157 /* Models & Components */ = {
+			isa = PBXGroup;
+			children = (
+				FB1BA3541EA51A95004CFB44 /* BorderedButton.swift */,
+				FB1BA3521EA517A9004CFB44 /* BorderedTextField.swift */,
+				FB2D9AC81EC0E68800BE8E0F /* CustomTableCell.swift */,
+				FB2EF6E21ED062DD00D3ECB7 /* CustomBackgroundColor.swift */,
+			);
+			name = "Models & Components";
+			sourceTree = "<group>";
+		};
+		FB19CB891ED4809F00436157 /* GHM */ = {
+			isa = PBXGroup;
+			children = (
+				FB1BACFE1E942FE500B8A683 /* Controllers */,
+				410B4B7F2AC2DF39A90F28F4 /* Frameworks */,
+				FB1BAD131E942FE600B8A683 /* GHMTests */,
+				FB1BAD1E1E942FE600B8A683 /* GHMUITests */,
+				FB19CB881ED4803000436157 /* Models & Components */,
+				4E0419FCCB50154A7B4E4402 /* Pods */,
+				FB1BACFD1E942FE500B8A683 /* Products */,
+				FB19CB8A1ED480C300436157 /* Resources */,
+				FB207B2C1EB4FFE8004E8BF4 /* Views */,
+			);
+			name = GHM;
+			sourceTree = "<group>";
+		};
+		FB19CB8A1ED480C300436157 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FB1BACFF1E942FE500B8A683 /* AppDelegate.swift */,
+				FB1BAD061E942FE600B8A683 /* Assets.xcassets */,
+				FB1BAD0B1E942FE600B8A683 /* Info.plist */,
+				FB2EF6E61ED08D0D00D3ECB7 /* GoogleService-Info.plist */,
+				FB1BAD081E942FE600B8A683 /* LaunchScreen.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		FB1BACF31E942FE500B8A683 = {
 			isa = PBXGroup;
 			children = (
-				FB1BACFE1E942FE500B8A683 /* GHM */,
-				FB1BAD131E942FE600B8A683 /* GHMTests */,
-				FB1BAD1E1E942FE600B8A683 /* GHMUITests */,
-				FB1BACFD1E942FE500B8A683 /* Products */,
+				FB19CB891ED4809F00436157 /* GHM */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,16 +210,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FB1BACFE1E942FE500B8A683 /* GHM */ = {
+		FB1BACFE1E942FE500B8A683 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				FB1BACFF1E942FE500B8A683 /* AppDelegate.swift */,
-				FB1BAD011E942FE600B8A683 /* ViewController.swift */,
-				FB1BAD031E942FE600B8A683 /* Main.storyboard */,
-				FB1BAD061E942FE600B8A683 /* Assets.xcassets */,
-				FB1BAD081E942FE600B8A683 /* LaunchScreen.storyboard */,
-				FB1BAD0B1E942FE600B8A683 /* Info.plist */,
+				FB1BAD011E942FE600B8A683 /* LoginController.swift */,
+				FB22C4ED1EB0DE62001572BA /* UserDataController.swift */,
+				FB22C4EF1EB0E0AE001572BA /* MainMenuController.swift */,
+				FB19D5491EB6426A001AEFDE /* HelpController.swift */,
+				FB16F7791EB79CD9008C2BC5 /* IncomesController.swift */,
+				FB1F370A1EBA49C0008C40BD /* InfoController.swift */,
+				FB19FD701EBF79FC00EAF7A4 /* InsurancesController.swift */,
+				FB2DBE771EC8C21D00C54FA5 /* InfoNavigationController.swift */,
+				FB1EAEF31ECB887400A6C181 /* ConclusionsController.swift */,
+				FB1A900D1ED217300033793D /* AboutController.swift */,
 			);
+			name = Controllers;
 			path = GHM;
 			sourceTree = "<group>";
 		};
@@ -125,6 +246,21 @@
 			path = GHMUITests;
 			sourceTree = "<group>";
 		};
+		FB207B2C1EB4FFE8004E8BF4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FB1BAD031E942FE600B8A683 /* Main.storyboard */,
+				FB207B261EB4FE96004E8BF4 /* Login.storyboard */,
+				FB207B281EB4FF1A004E8BF4 /* UserData.storyboard */,
+				FB207B2A1EB4FFD9004E8BF4 /* Help.storyboard */,
+				FB16D0131EB60840004D4F8D /* About.storyboard */,
+				FB16F7771EB7906B008C2BC5 /* Income.storyboard */,
+				FB1F37041EBA2CBF008C40BD /* Info.storyboard */,
+				FB1F37061EBA3EE5008C40BD /* Insurance.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +268,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB1BAD241E942FE600B8A683 /* Build configuration list for PBXNativeTarget "GHM" */;
 			buildPhases = (
+				7BB80A64516D3380C0BEDF3B /* [CP] Check Pods Manifest.lock */,
 				FB1BACF81E942FE500B8A683 /* Sources */,
 				FB1BACF91E942FE500B8A683 /* Frameworks */,
 				FB1BACFA1E942FE500B8A683 /* Resources */,
+				647B6A106E82BA2031E8E020 /* [CP] Embed Pods Frameworks */,
+				72A56CDF5750EB779971A05A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +288,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB1BAD271E942FE600B8A683 /* Build configuration list for PBXNativeTarget "GHMTests" */;
 			buildPhases = (
+				78A7FD7A67E2A0A311CB9C66 /* [CP] Check Pods Manifest.lock */,
 				FB1BAD0C1E942FE600B8A683 /* Sources */,
 				FB1BAD0D1E942FE600B8A683 /* Frameworks */,
 				FB1BAD0E1E942FE600B8A683 /* Resources */,
+				32F6441A64CE6EF16C9AA956 /* [CP] Embed Pods Frameworks */,
+				6DAD991745762B6A124D577D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +309,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB1BAD2A1E942FE600B8A683 /* Build configuration list for PBXNativeTarget "GHMUITests" */;
 			buildPhases = (
+				ADD99C9737FB6E3F60F46BFA /* [CP] Check Pods Manifest.lock */,
 				FB1BAD171E942FE600B8A683 /* Sources */,
 				FB1BAD181E942FE600B8A683 /* Frameworks */,
 				FB1BAD191E942FE600B8A683 /* Resources */,
+				F010971EF00588F77313819A /* [CP] Embed Pods Frameworks */,
+				1A10408C24765ED292CD55D2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,7 +338,14 @@
 				TargetAttributes = {
 					FB1BACFB1E942FE500B8A683 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 9XL8N4XWRW;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
 					};
 					FB1BAD0F1E942FE600B8A683 = {
 						CreatedOnToolsVersion = 8.3;
@@ -232,9 +384,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB1F37051EBA2CBF008C40BD /* Info.storyboard in Resources */,
+				FB207B271EB4FE96004E8BF4 /* Login.storyboard in Resources */,
+				FB16D0141EB60840004D4F8D /* About.storyboard in Resources */,
+				FB207B2B1EB4FFD9004E8BF4 /* Help.storyboard in Resources */,
+				FB16F7781EB7906B008C2BC5 /* Income.storyboard in Resources */,
 				FB1BAD0A1E942FE600B8A683 /* LaunchScreen.storyboard in Resources */,
 				FB1BAD071E942FE600B8A683 /* Assets.xcassets in Resources */,
+				FB1F37071EBA3EE5008C40BD /* Insurance.storyboard in Resources */,
+				FB2EF6E71ED08D0D00D3ECB7 /* GoogleService-Info.plist in Resources */,
 				FB1BAD051E942FE600B8A683 /* Main.storyboard in Resources */,
+				FB207B291EB4FF1A004E8BF4 /* UserData.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +414,164 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A10408C24765ED292CD55D2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GHMUITests/Pods-GHMUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32F6441A64CE6EF16C9AA956 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GHMTests/Pods-GHMTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		647B6A106E82BA2031E8E020 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GHM/Pods-GHM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DAD991745762B6A124D577D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GHMTests/Pods-GHMTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72A56CDF5750EB779971A05A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GHM/Pods-GHM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78A7FD7A67E2A0A311CB9C66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7BB80A64516D3380C0BEDF3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ADD99C9737FB6E3F60F46BFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F010971EF00588F77313819A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GHMUITests/Pods-GHMUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FB1BACF81E942FE500B8A683 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB1BAD021E942FE600B8A683 /* ViewController.swift in Sources */,
+				FB2EF6E31ED062DD00D3ECB7 /* CustomBackgroundColor.swift in Sources */,
+				FB1BAD021E942FE600B8A683 /* LoginController.swift in Sources */,
+				FB19D54A1EB6426A001AEFDE /* HelpController.swift in Sources */,
+				FB2DBE781EC8C21D00C54FA5 /* InfoNavigationController.swift in Sources */,
+				FB19FD711EBF79FC00EAF7A4 /* InsurancesController.swift in Sources */,
+				FB1F370B1EBA49C0008C40BD /* InfoController.swift in Sources */,
 				FB1BAD001E942FE600B8A683 /* AppDelegate.swift in Sources */,
+				FB1BA3551EA51A95004CFB44 /* BorderedButton.swift in Sources */,
+				FB16F77A1EB79CD9008C2BC5 /* IncomesController.swift in Sources */,
+				FB1BA3531EA517A9004CFB44 /* BorderedTextField.swift in Sources */,
+				FB1EAEF41ECB887400A6C181 /* ConclusionsController.swift in Sources */,
+				FB1A900E1ED217300033793D /* AboutController.swift in Sources */,
+				FB22C4EE1EB0DE62001572BA /* UserDataController.swift in Sources */,
+				FB22C4F01EB0E0AE001572BA /* MainMenuController.swift in Sources */,
+				FB2D9AC91EC0E68800BE8E0F /* CustomTableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +613,7 @@
 				FB1BAD041E942FE600B8A683 /* Base */,
 			);
 			name = Main.storyboard;
+			path = GHM;
 			sourceTree = "<group>";
 		};
 		FB1BAD081E942FE600B8A683 /* LaunchScreen.storyboard */ = {
@@ -310,6 +622,7 @@
 				FB1BAD091E942FE600B8A683 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = GHM;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -410,30 +723,40 @@
 		};
 		FB1BAD251E942FE600B8A683 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89EEE8F86AD92A25A9F6CC47 /* Pods-GHM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 9XL8N4XWRW;
 				INFOPLIST_FILE = GHM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Home.GHM;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ghm.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		FB1BAD261E942FE600B8A683 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C4823F520417FBA28095EB5 /* Pods-GHM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 9XL8N4XWRW;
 				INFOPLIST_FILE = GHM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Home.GHM;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ghm.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		FB1BAD281E942FE600B8A683 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88AD1D50BB02A18F9A88087D /* Pods-GHMTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +771,7 @@
 		};
 		FB1BAD291E942FE600B8A683 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1637A7575F7A56A792A009C8 /* Pods-GHMTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +786,7 @@
 		};
 		FB1BAD2B1E942FE600B8A683 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 887F702A983862C187B60702 /* Pods-GHMUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = GHMUITests/Info.plist;
@@ -475,6 +800,7 @@
 		};
 		FB1BAD2C1E942FE600B8A683 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA7A77213235F3A501B49C2D /* Pods-GHMUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = GHMUITests/Info.plist;
@@ -505,6 +831,7 @@
 				FB1BAD261E942FE600B8A683 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB1BAD271E942FE600B8A683 /* Build configuration list for PBXNativeTarget "GHMTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +840,7 @@
 				FB1BAD291E942FE600B8A683 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB1BAD2A1E942FE600B8A683 /* Build configuration list for PBXNativeTarget "GHMUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +849,7 @@
 				FB1BAD2C1E942FE600B8A683 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
